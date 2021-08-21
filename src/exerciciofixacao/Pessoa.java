@@ -11,7 +11,7 @@ package exerciciofixacao;
  */
 public class Pessoa {
     public String nome = "Carlos Eduardo";
-    public int anoDeNascimento = 1950;
+    public int anoDeNascimento = 2010;
     public Double altura = 1.70;
     private String cpf = "123.456.789-10";
     
@@ -21,6 +21,18 @@ public class Pessoa {
         idadeCalculada = 2021 - anoDeNascimento;
         
         System.out.println("A idade de " + nome + " é: " + idadeCalculada);
+    }
+    
+    public void verificaMaiorIdade() {
+        int idadeCalculada;
+        
+        idadeCalculada = 2021 - anoDeNascimento;
+        
+        if(idadeCalculada >= 18) {
+            System.out.println("É maior de idade");
+        } else {
+            System.out.println("É menor de idade");
+        }
     }
     
     public void mostraInformacoes() {

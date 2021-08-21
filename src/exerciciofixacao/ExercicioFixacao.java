@@ -19,6 +19,7 @@ public class ExercicioFixacao {
         
         pessoa1.calculaIdade();
         pessoa1.mostraInformacoes();
+        pessoa1.verificaMaiorIdade();
     }
     
 }
