@@ -15,11 +15,9 @@ public class ExercicioFixacao {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Pessoa pessoa1 = new Pessoa();
+        ComparaNumeros comparador = new ComparaNumeros();
         
-        pessoa1.calculaIdade();
-        pessoa1.mostraInformacoes();
-        pessoa1.verificaMaiorIdade();
+        comparador.maiorNumero(500, 125);
     }
     
 }
